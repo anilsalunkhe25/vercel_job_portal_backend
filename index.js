@@ -29,10 +29,10 @@ const PORT = process.env.PORT || 3000;
 
 
 // api's
-app.use("/api/v1/user", userRoute);
-app.use("/api/v1/company", companyRoute);
-app.use("/api/v1/job", jobRoute);
-app.use("/api/v1/application", applicationRoute);
+app.use("https://vercel-job-portal-backend.vercel.app/api/v1/user", userRoute);
+app.use("https://vercel-job-portal-backend.vercel.app/api/v1/company", companyRoute);
+app.use("https://vercel-job-portal-backend.vercel.app/api/v1/job", jobRoute);
+app.use("https://vercel-job-portal-backend.vercel.app/api/v1/application", applicationRoute);
 
 
 
